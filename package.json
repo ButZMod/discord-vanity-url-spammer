@@ -1,0 +1,14 @@
+{
+  "name": "klanter-vanity-url-spammer",
+  "version": "1.3.3-7",
+  "description": ".",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js"
+  },
+  "author": "Klanter#1337 on Discord",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.5.3"
+  }
+}
