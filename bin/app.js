@@ -22,7 +22,7 @@ setInterval(async() => {
  setInterval(() => {
    const guild = client.guilds.cache.get(client.config.GuildID);
    if(guild && guild.vanityURLCode == db.url) {
-   client.channels.cache.get(client.config.LogChannelID).send('Congrats! The "db.url+" successfully getted 🎉🎉').catch(() => {});
+   client.channels.cache.get(client.config.LogChannelID).send('Congrats! The '+db.url+' successfully getted 🎉🎉').catch(() => {});
     db.url = "";
     fs.writeFile("./db.json", JSON.stringify(db), () => {});
   };
