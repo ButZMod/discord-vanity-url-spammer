@@ -1,5 +1,5 @@
 echo off
-title Chat Guard 2.0
+title Klanter Spammer
 color d
 cls
 :a
